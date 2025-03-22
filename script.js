@@ -5078,3 +5078,4 @@ function generateTitle() {
         resultBox.classList.remove("d-none");
     }, 1000);
 }
+

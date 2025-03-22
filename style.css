@@ -116,7 +116,7 @@ h2 {
     }
 
     .generator-container {
-        height: auto;
+        height: 120%;
         box-shadow: none;
     }
 
@@ -145,15 +145,16 @@ h2 {
     font-weight: 550;
     color: black;
     font-family: 'poppins';
+    text-align: left;
+    height: 160px;
 }
 .header img {
     width: 100px; /* Adjust size */
 }
 
 .vertical-line {
-    width: 3px;
+    width: 4px;
     height: 130px;
     background-color: black;
     margin: 0 18px;
 }
-
