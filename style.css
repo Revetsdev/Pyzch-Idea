@@ -116,7 +116,7 @@ h2 {
     }
 
     .generator-container {
-        height: 120%;
+        height: auto;
         box-shadow: none;
     }
 
