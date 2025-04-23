@@ -1,0 +1,52 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Pzych | Capstone IdeaHub</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link href="fnt.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="website icon" type="png" img width="50" height="50" src="logo.png" >
+
+</head>
+<body>
+    <div class="container generator-container">
+        <div class="header">
+            <img src="logo.png" alt="Organization Logo">
+            <div class="vertical-line"></div>
+            <h2 style="text-align: left;">Pzych Capstone IdeaHub</h2>
+        </div>
+        <p class="text-center text-muted">Generate Capstone Title Ideas</p>
+        <form onsubmit="generateTitle(); return false;">
+            <div class="mb-3">
+                <label for="category" class="form-label">Select Project Category</label>
+                <select id="category" class="form-select" required="">
+                    <option value="" disabled="" selected="">Select a category</option>
+                    <option value="web-based">Web-Based System</option>
+                    <option value="app-based">App-Based System</option>
+                    <option value="iot-based">IoT-Based System</option>
+                    <option value="data-science">Data Science Project</option>
+                    <option value="blockchain">Blockchain Technology</option>
+                </select>
+                <div id="categoryHelp" class="form-text text-muted">Choose a category to get relevant title ideas.</div>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Generate Capstone Title</button>
+        </form>
+        <div class="loading-spinner mt-3" id="loadingSpinner"></div>
+        <div id="result" class="mt-4 result-box d-none">
+            <h5>Generated Title:</h5>
+            <p id="generatedTitle"></p>
+            <p id="technologies"></p>
+        </div>
+        <div class="mt-4 footer text-center">
+            <a href="https://www.facebook.com/stever.lanz"><img width="30" height="30" src="https://img.icons8.com/ios/50/facebook-new.png" alt="facebook-new"/></a> 
+            <a href="#"><img width="30" height="30" src="https://img.icons8.com/ios/50/tiktok--v1.png" alt="tiktok--v1"/></a>
+            <a href="#"><img width="30" height="30" src="https://img.icons8.com/ios-filled/50/youtube.png" alt="youtube"/></a>
+            <a href="#"><img width="30" height="30" src="https://img.icons8.com/ios/50/github--v1.png" alt="github--v1"/></a>
+            <p>© 2025 Capstone IdeaHub</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+https://img.icons8.com/material-sharp/96/1FB141/icons8-new-logo.png
